@@ -1,0 +1,129 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    background: url(pic02.jpg);
+    height: 800px;
+    background-size: 100% 100%;
+     
+}
+.left{
+/* border: 2px solid red; */
+display: inline-block;
+position: absolute;
+left: 34px;
+top:20px
+}
+.left img{
+    width: 75px;
+    filter: invert(100%);
+
+}
+
+.mid{
+    /* border: 2px solid rgb(65, 236, 18); */
+    display: block;
+    width:  70%;
+    margin: 20px auto;
+    border-radius: 12px;
+
+   
+}
+
+
+.right{
+
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top:20px
+
+}
+.btn{
+    background-color: rgba(224, 9, 9, 0.859);
+    color: white;
+    padding: 6px;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Trirong", serif;
+
+
+}
+.btn:hover{
+    border-radius: 16px;
+
+    background-color: rgba(165, 159, 82, 0.75);
+    transition: 0.8s;
+    color: black;
+    
+}
+
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+    display:inline-block;
+}
+.navbar li a{
+   color: white;
+   text-decoration: none;
+   padding: 34px 23px;
+   text-align: center;
+   font-size: 17px;
+   font-family: "Trirong", serif;
+
+}
+.navbar li a:hover, .navbar list a.active{
+
+    text-decoration: none;
+    color:khaki;
+}
+
+.container{
+
+    border: 2px solid khaki;
+    margin: 149px 50px;
+    padding: 26px 76px;
+    width: 21%;
+    border-radius: 17px;
+}
+.container h1{
+
+    text-align: center;
+    color: khaki;
+    font-family: "Trirong", serif;
+
+    
+}
+.form-group input{
+
+    text-align: center;
+    display: block;
+    width: 296px;
+    padding: 5px;
+    border: 1px solid rgb(236, 226, 226);
+    margin: 11px auto;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 11px auto 17px -13px;
+    font-family: "Trirong", serif;
+
+}
+.container button{
+    margin: 4px auto;
+    display: block;
+    font-family: "Trirong", serif;
+    width: 68%;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 11px;
+    color: white;
+    background-color: black;
+}
+.container button:hover{
+
+    /* background-color: aqua; */
+    color: gray;
+}
